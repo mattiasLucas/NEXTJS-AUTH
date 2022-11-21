@@ -8,7 +8,7 @@ First, clone this [repository](https://github.com/lawrenceagles/next-tw) with:
 git clone https://github.com/lawrenceagles/next-tw 
 ```
 
-then install dependencies with:
+Then install dependencies with:
 
 ```
 npm install
