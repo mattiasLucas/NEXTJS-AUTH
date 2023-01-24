@@ -1,19 +1,29 @@
 export default function Home() {
   return (
-    <section className="text-gray-600 body-font font-adelia">
-      <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-        <div className="text-center lg:w-2/3 w-full">
-          <h1 className="title-font text-title mb-4 font-medium text-primary-800 ">
-            Microdosing synth tattooed vexillologist
-          </h1>
-          <p className="mb-8 leading-relaxed text-primary-500 text-paragraph">
-            Meggings kinfolk echo park stumptown DIY, kale chips beard jianbing
-            tousled. Chambray dreamcatcher trust fund, kitsch vice godard
-            disrupt ramps hexagon mustache umami snackwave tilde chillwave ugh.
-            Pour-over meditation PBR&amp;B pickled ennui celiac mlkshk freegan
-            photo booth af fingerstache pitchfork.
-          </p>
-        </div>
+    <section class="grid h-screen place-items-center">
+      <div>
+        <h2 class="text-center text-lg mb-4">Welcome To Login</h2>
+        <form id="add-book">
+          <div class="mx-auto max-w-lg ">
+            <div class="py-1">
+              <span class="px-1 text-sm text-gray-600">username</span>
+              <input id="username" placeholder="Enter your username" name="username" type="text"
+                class="text-md block px-3 py-2 rounded-lg w-full bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none" />
+            </div>
+
+            <div class="py-1">
+              <span class="px-1 text-sm text-gray-600">Password</span>
+              <input id="password" placeholder="Enter your password" name="password" type="text"
+                class="text-md block px-3 py-2 rounded-lg w-full bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none" />
+            </div>
+
+
+            <button id="create-book" type="submit"
+              class="mt-3 text-lg font-semibold bg-gray-800 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:text-white hover:bg-black">
+              submit
+            </button>
+          </div>
+        </form>
       </div>
     </section>
   );
