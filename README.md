@@ -1,9 +1,8 @@
 <<<<<<< HEAD
-This is a siple [Next.js](https://nextjs.org/) and [Tailwind CSS]() starter app.
+Using Api integration for github auth a[Next.js](https://nextjs.org/) and [Tailwind CSS]() starter app.
 
 ## Getting Started
 
-First, clone this [repository](https://github.com/lawrenceagles/next-tw) with:
 
 ```
 git clone https://github.com/lawrenceagles/next-tw 
